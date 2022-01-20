@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videos</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link
+    rel="shortcut icon"
+    href="./img/rawalogo.jpg"
+    type="image/x-icon"
+  />
+  </head>
+  <body>
+    <main id="hero">
+      <div class="promo"></div>
+      <video controls autoplay loop>
+        <source
+          src="./img/y2mate.com - Rawayana  HIGH feat Apache Video Oficial_1080p.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="capa"></div>
+    </main>
+    <header id="menu">
+        <nav>
+          <a href="index.html"></a>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./galeria.html">Galeria</a></li>
+          <li><a href="./videos.html">Videos</a></li>
+          <li><a href="./contactos.html">Contactos</a></li>
+        </nav>
+      </header>
+      <footer>
+        <p class="footer-content">
+          Joshue Barrios ™ &copy;Todos los derechos reservados 2022
+        </p>
+        <ul class="redes">
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-spotify"></i></li>
+          <li><i class="fab fa-youtube"></i></li>
+          <li><i class="fab fa-instagram"></i></li>
+        </ul>
+      </footer>
+      <script>
+        const menu = document.getElementById("menu");
+        window.onscroll = function () {
+          if (window.pageYOffset > 10) {
+            menu.style.backgroundColor = "#fff";
+          } else {
+            menu.style.backgroundColor = "initial";
+          }
+        };
+      </script>
+    <script src="main.js"></script>
+  </body>
+</html>
